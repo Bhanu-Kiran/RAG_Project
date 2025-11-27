@@ -1,0 +1,70 @@
+# ─────────────────────────────────────────────────────────
+# Core LLM + RAG Frameworks
+# ─────────────────────────────────────────────────────────
+langchain                 # Main RAG framework (chains, prompts, tools)
+langchain-community       # Community loaders, retrievers, embeddings
+langchain-experimental    # Experimental features like custom retrievers
+langchain-groq            # Groq LPU-powered LLM API wrapper
+langchain-huggingface     # HF models plugged into LangChain
+langchain-openai          # OpenAI API wrapper (chat/completions)
+langgraph                 # Stateful graph-based RAG workflows (agents + RAG)
+langchain-text-splitters  # Text splitters for LangChain
+
+# ─────────────────────────────────────────────────────────
+# Vector Databases / Retrievers
+# ─────────────────────────────────────────────────────────
+chromadb                  # Simple local vector DB for prototyping RAG
+faiss-cpu                 # Fast vector search library (Facebook AI)
+rank_bm25                 # BM25 retriever for hybrid search (keyword + embeddings)
+
+# ─────────────────────────────────────────────────────────
+# Embeddings & ML Models
+# ─────────────────────────────────────────────────────────
+sentence-transformers     # SOTA embeddings from HuggingFace (duplicate removed)
+
+# ─────────────────────────────────────────────────────────
+# Tokenizers
+# ─────────────────────────────────────────────────────────
+tiktoken                  # OpenAI tokenizer (chunking, cost estimation)
+
+# ─────────────────────────────────────────────────────────
+# Document Loaders / Parsing
+# ─────────────────────────────────────────────────────────
+pypdf                     # Basic PDF text extraction (LangChain-friendly)
+pymupdf                   # Very fast PDF parser (complex layouts)
+pdfminer                  # PDF text extraction alternative
+unstructured              # Handles messy PDFs, emails, HTML, images, etc.
+python-docx               # Read/write DOCX
+docx2txt                  # Extract text from DOCX quickly
+beautifulsoup4            # HTML parsing for web-based RAG
+trafilatura               # Clean text extraction from websites
+
+# ─────────────────────────────────────────────────────────
+# Data Handling
+# ─────────────────────────────────────────────────────────
+pandas                    # Dataframes, CSV operations
+openpyxl                  # Excel read/write (.xlsx)
+
+# ─────────────────────────────────────────────────────────
+# Utilities
+# ─────────────────────────────────────────────────────────
+python-dotenv             # Load secrets from .env files
+jq                        # JSON filtering in Python (jq wrapper)
+rich                      # Pretty printing, tables, tracebacks
+loguru                    # Simpler logging system
+
+# ─────────────────────────────────────────────────────────
+# Evaluation
+# ─────────────────────────────────────────────────────────
+ragas                     # RAG evaluation toolkit (precision, faithfulness)
+datasets                  # HF datasets — used by RAGAS for eval
+
+# ─────────────────────────────────────────────────────────
+# Visualizations
+# ─────────────────────────────────────────────────────────
+matplotlib                # Plotting (embedding visualizers, eval metrics)
+
+# ─────────────────────────────────────────────────────────
+# External Data Sources
+# ─────────────────────────────────────────────────────────
+wikipedia                 # Wikipedia loader for RAG experiments
