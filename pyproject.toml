@@ -24,6 +24,7 @@ dependencies = [
     "langgraph>=1.0.4",
     "loguru>=0.7.3",
     "matplotlib>=3.10.7",
+    "msoffcrypto-tool>=5.4.2",
     "openpyxl>=3.1.5",
     "pandas>=2.3.3",
     "pdfminer>=20191125",

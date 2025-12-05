@@ -38,12 +38,12 @@ python-docx               # Read/write DOCX
 docx2txt                  # Extract text from DOCX quickly
 beautifulsoup4            # HTML parsing for web-based RAG
 trafilatura               # Clean text extraction from websites
-
 # ─────────────────────────────────────────────────────────
 # Data Handling
 # ─────────────────────────────────────────────────────────
 pandas                    # Dataframes, CSV operations
 openpyxl                  # Excel read/write (.xlsx)
+msoffcrypto-tool               # Decrypt Excel files
 
 # ─────────────────────────────────────────────────────────
 # Utilities

@@ -2184,6 +2184,19 @@ wheels = [
 ]
 
 [[package]]
+name = "msoffcrypto-tool"
+version = "5.4.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cryptography" },
+    { name = "olefile" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d2/b7/0fd6573157e0ec60c0c470e732ab3322fba4d2834fd24e1088d670522a01/msoffcrypto_tool-5.4.2.tar.gz", hash = "sha256:44b545adba0407564a0cc3d6dde6ca36b7c0fdf352b85bca51618fa1d4817370", size = 41183, upload-time = "2024-08-08T15:50:28.462Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/03/54/7f6d3d9acad083dae8c22d9ab483b657359a1bf56fee1d7af88794677707/msoffcrypto_tool-5.4.2-py3-none-any.whl", hash = "sha256:274fe2181702d1e5a107ec1b68a4c9fea997a44972ae1cc9ae0cb4f6a50fef0e", size = 48713, upload-time = "2024-08-08T15:50:27.093Z" },
+]
+
+[[package]]
 name = "multidict"
 version = "6.7.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2949,6 +2962,7 @@ dependencies = [
     { name = "langgraph" },
     { name = "loguru" },
     { name = "matplotlib" },
+    { name = "msoffcrypto-tool" },
     { name = "openpyxl" },
     { name = "pandas" },
     { name = "pdfminer" },
@@ -2987,6 +3001,7 @@ requires-dist = [
     { name = "langgraph", specifier = ">=1.0.4" },
     { name = "loguru", specifier = ">=0.7.3" },
     { name = "matplotlib", specifier = ">=3.10.7" },
+    { name = "msoffcrypto-tool", specifier = ">=5.4.2" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pdfminer", specifier = ">=20191125" },
