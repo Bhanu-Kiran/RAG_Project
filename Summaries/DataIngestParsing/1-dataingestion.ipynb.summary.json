@@ -1,0 +1,82 @@
+{
+  "title": "Data Ingestion for RAG Systems",
+  "summary": "This module teaches data parsing and ingestion techniques for RAG systems. It covers various data formats including text files, PDFs, and databases. Practical examples are provided using LangChain v0.3.",
+  "imports": [
+    {
+      "name": "os",
+      "purpose": "File Management"
+    },
+    {
+      "name": "typing",
+      "purpose": "Type Hints"
+    },
+    {
+      "name": "pandas",
+      "purpose": "Data Manipulation"
+    },
+    {
+      "name": "langchain_core.documents",
+      "purpose": "Document Handling"
+    },
+    {
+      "name": "langchain_text_splitters",
+      "purpose": "Text Splitting"
+    },
+    {
+      "name": "langchain_community.document_loaders",
+      "purpose": "Document Loading"
+    }
+  ],
+  "key_functions": [
+    {
+      "name": "Document",
+      "takeaway": "Create structured document with content and metadata."
+    }
+  ],
+  "_deterministic": {
+    "imports": {
+      "os": {
+        "aliases": [
+          "os"
+        ],
+        "count": 2
+      },
+      "typing": {
+        "aliases": [
+          "Any",
+          "Dict",
+          "List"
+        ],
+        "count": 3
+      },
+      "pandas": {
+        "aliases": [
+          "pd"
+        ],
+        "count": 1
+      },
+      "langchain_core.documents": {
+        "aliases": [
+          "Document"
+        ],
+        "count": 1
+      },
+      "langchain_text_splitters": {
+        "aliases": [
+          "CharacterTextSplitter",
+          "RecursiveCharacterTextSplitter",
+          "TokenTextSplitter"
+        ],
+        "count": 6
+      },
+      "langchain_community.document_loaders": {
+        "aliases": [
+          "DirectoryLoader",
+          "TextLoader"
+        ],
+        "count": 2
+      }
+    },
+    "key_defs_raw": []
+  }
+}

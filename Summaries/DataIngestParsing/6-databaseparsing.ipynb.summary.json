@@ -1,0 +1,85 @@
+{
+  "title": "Database Parsing with SQL",
+  "summary": "This notebook demonstrates how to parse SQL databases into document formats. It involves creating a sample SQLite database, defining tables, and inserting data. The main function converts the SQL database into structured documents.",
+  "imports": [
+    {
+      "name": "sqlite3",
+      "purpose": "Database"
+    },
+    {
+      "name": "os",
+      "purpose": "File Management"
+    },
+    {
+      "name": "langchain_community.utilities",
+      "purpose": "Database Utility"
+    },
+    {
+      "name": "langchain_community.document_loaders",
+      "purpose": "Document Loader"
+    },
+    {
+      "name": "typing",
+      "purpose": "Type Hinting"
+    },
+    {
+      "name": "langchain_core.documents",
+      "purpose": "Document Structure"
+    }
+  ],
+  "key_functions": [
+    {
+      "name": "sql_to_documents",
+      "takeaway": "Convert SQL Database To documents with context"
+    }
+  ],
+  "_deterministic": {
+    "imports": {
+      "sqlite3": {
+        "aliases": [
+          "sqlite3"
+        ],
+        "count": 1
+      },
+      "os": {
+        "aliases": [
+          "os"
+        ],
+        "count": 1
+      },
+      "langchain_community.utilities": {
+        "aliases": [
+          "SQLDatabase"
+        ],
+        "count": 1
+      },
+      "langchain_community.document_loaders": {
+        "aliases": [
+          "SQLDatabaseLoader"
+        ],
+        "count": 1
+      },
+      "typing": {
+        "aliases": [
+          "List"
+        ],
+        "count": 1
+      },
+      "langchain_core.documents": {
+        "aliases": [
+          "Document"
+        ],
+        "count": 1
+      }
+    },
+    "key_defs_raw": [
+      {
+        "name": "sql_to_documents",
+        "kind": "function",
+        "lineno": 6,
+        "doc": "Convert SQL Database To documents with context",
+        "_score": 5.36
+      }
+    ]
+  }
+}

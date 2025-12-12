@@ -1,0 +1,88 @@
+{
+  "title": "CSV and Excel File Processing",
+  "summary": "This notebook demonstrates how to process CSV and Excel files into structured documents. It utilizes pandas for data manipulation and Langchain for document loading. The main processes include creating CSV and Excel files and loading them as documents.",
+  "imports": [
+    {
+      "name": "pandas",
+      "purpose": "data manipulation"
+    },
+    {
+      "name": "os",
+      "purpose": "file management"
+    },
+    {
+      "name": "langchain_community.document_loaders",
+      "purpose": "document loading"
+    },
+    {
+      "name": "typing",
+      "purpose": "type hinting"
+    },
+    {
+      "name": "langchain_core.documents",
+      "purpose": "document structure"
+    }
+  ],
+  "key_functions": [
+    {
+      "name": "process_csv_intelligently",
+      "takeaway": "Process CSV with intelligent document creation"
+    },
+    {
+      "name": "process_excel_with_pandas",
+      "takeaway": "Process Excel with sheet awareness"
+    }
+  ],
+  "_deterministic": {
+    "imports": {
+      "pandas": {
+        "aliases": [
+          "pd"
+        ],
+        "count": 1
+      },
+      "os": {
+        "aliases": [
+          "os"
+        ],
+        "count": 1
+      },
+      "langchain_community.document_loaders": {
+        "aliases": [
+          "CSVLoader",
+          "UnstructuredCSVLoader",
+          "UnstructuredExcelLoader"
+        ],
+        "count": 3
+      },
+      "typing": {
+        "aliases": [
+          "List"
+        ],
+        "count": 1
+      },
+      "langchain_core.documents": {
+        "aliases": [
+          "Document"
+        ],
+        "count": 1
+      }
+    },
+    "key_defs_raw": [
+      {
+        "name": "process_csv_intelligently",
+        "kind": "function",
+        "lineno": 6,
+        "doc": "Process CSV with intelligent document creation",
+        "_score": 4.58
+      },
+      {
+        "name": "process_excel_with_pandas",
+        "kind": "function",
+        "lineno": 3,
+        "doc": "Process Excel with sheet awareness",
+        "_score": 4.58
+      }
+    ]
+  }
+}

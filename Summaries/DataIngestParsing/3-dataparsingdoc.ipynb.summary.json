@@ -1,0 +1,32 @@
+{
+  "title": "Word Document Processing",
+  "summary": "This notebook processes Word documents using two methods. It loads documents using Docx2txtLoader and UnstructuredWordDocumentLoader. The content and metadata of the loaded documents are displayed.",
+  "imports": [
+    {
+      "name": "langchain_community.document_loaders",
+      "purpose": "loading"
+    }
+  ],
+  "key_functions": [
+    {
+      "name": "Docx2txtLoader",
+      "takeaway": "Loads Word documents into a structured format."
+    },
+    {
+      "name": "UnstructuredWordDocumentLoader",
+      "takeaway": "Loads Word documents as unstructured elements."
+    }
+  ],
+  "_deterministic": {
+    "imports": {
+      "langchain_community.document_loaders": {
+        "aliases": [
+          "Docx2txtLoader",
+          "UnstructuredWordDocumentLoader"
+        ],
+        "count": 2
+      }
+    },
+    "key_defs_raw": []
+  }
+}

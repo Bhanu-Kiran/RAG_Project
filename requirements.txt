@@ -9,11 +9,13 @@ langchain-huggingface
 langchain-openai
 langgraph
 langchain-text-splitters
+openai
 
 # ─────────────────────────────────────────────────────────
 # Vector Databases / Retrievers
 # ─────────────────────────────────────────────────────────
 chromadb
+chroma-migrate
 faiss-cpu
 rank_bm25
 
@@ -95,3 +97,11 @@ pandocfilters==1.5.1
 # Pip
 # ─────────────────────────────────────────────────────────
 pip==25.3
+
+# ─────────────────────────────────────────────────────────
+# Additional Packages
+# ─────────────────────────────────────────────────────────
+scikit-learn
+networkx
+tqdm
+umap-learn

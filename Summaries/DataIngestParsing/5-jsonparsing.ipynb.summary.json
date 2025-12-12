@@ -1,0 +1,96 @@
+{
+  "title": "Json Parsing And Processing",
+  "summary": "This notebook focuses on parsing and processing JSON data. It includes functions for intelligent JSON processing and fetching data from URLs. The main processes involve loading JSON data and extracting specific fields.",
+  "imports": [
+    {
+      "name": "json",
+      "purpose": "JSON handling"
+    },
+    {
+      "name": "os",
+      "purpose": "File operations"
+    },
+    {
+      "name": "langchain_community.document_loaders",
+      "purpose": "Document loading"
+    },
+    {
+      "name": "requests",
+      "purpose": "HTTP requests"
+    },
+    {
+      "name": "typing",
+      "purpose": "Type hints"
+    },
+    {
+      "name": "langchain_core.documents",
+      "purpose": "Document structure"
+    }
+  ],
+  "key_functions": [
+    {
+      "name": "process_json_intelligently",
+      "takeaway": "Process JSON with intelligent flattening and context preservation"
+    },
+    {
+      "name": "fetch_and_build_documents",
+      "takeaway": "UNCERTAIN"
+    }
+  ],
+  "_deterministic": {
+    "imports": {
+      "json": {
+        "aliases": [
+          "json"
+        ],
+        "count": 3
+      },
+      "os": {
+        "aliases": [
+          "os"
+        ],
+        "count": 2
+      },
+      "langchain_community.document_loaders": {
+        "aliases": [
+          "JSONLoader"
+        ],
+        "count": 1
+      },
+      "requests": {
+        "aliases": [
+          "requests"
+        ],
+        "count": 1
+      },
+      "typing": {
+        "aliases": [
+          "List"
+        ],
+        "count": 1
+      },
+      "langchain_core.documents": {
+        "aliases": [
+          "Document"
+        ],
+        "count": 1
+      }
+    },
+    "key_defs_raw": [
+      {
+        "name": "process_json_intelligently",
+        "kind": "function",
+        "lineno": 6,
+        "doc": "Process JSON with intelligent flattening and context preservation",
+        "_score": 4.62
+      },
+      {
+        "name": "fetch_and_build_documents",
+        "kind": "function",
+        "lineno": 19,
+        "doc": null,
+        "_score": 2.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "PDF Data Parsing and Cleaning",
+  "summary": "This notebook processes PDF files using different loaders. It includes error handling and text cleaning functionalities. The main focus is on extracting and cleaning text from PDFs.",
+  "imports": [
+    {
+      "name": "langchain_community.document_loaders",
+      "purpose": "PDF Loading"
+    },
+    {
+      "name": "langchain_text_splitters",
+      "purpose": "Text Splitting"
+    },
+    {
+      "name": "langchain_core.documents",
+      "purpose": "Document Handling"
+    },
+    {
+      "name": "typing",
+      "purpose": "Type Hinting"
+    }
+  ],
+  "key_functions": [
+    {
+      "name": "SmartPDFProcessor",
+      "takeaway": "UNCERTAIN"
+    },
+    {
+      "name": "clean_text",
+      "takeaway": "Cleans and formats extracted text from PDFs."
+    }
+  ],
+  "_deterministic": {
+    "imports": {
+      "langchain_community.document_loaders": {
+        "aliases": [
+          "PyMuPDFLoader",
+          "PyPDFLoader"
+        ],
+        "count": 3
+      },
+      "langchain_text_splitters": {
+        "aliases": [
+          "RecursiveCharacterTextSplitter"
+        ],
+        "count": 1
+      },
+      "langchain_core.documents": {
+        "aliases": [
+          "Document"
+        ],
+        "count": 1
+      },
+      "typing": {
+        "aliases": [
+          "List"
+        ],
+        "count": 1
+      }
+    },
+    "key_defs_raw": [
+      {
+        "name": "SmartPDFProcessor",
+        "kind": "class",
+        "lineno": 3,
+        "doc": "Advanced PDF processing with error handling",
+        "_score": 5.16
+      },
+      {
+        "name": "clean_text",
+        "kind": "function",
+        "lineno": 20,
+        "doc": null,
+        "_score": 2.18
+      }
+    ]
+  }
+}
