@@ -10,3 +10,4 @@ wheels/
 RAG
 .env
 DataIngestParsing/data
+Vector_Store/.Vector_Store
