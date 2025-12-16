@@ -9,6 +9,9 @@ langchain-huggingface
 langchain-openai
 langgraph
 langchain-text-splitters
+cassio
+langchain-pinecone
+astrapy
 openai
 
 # ─────────────────────────────────────────────────────────
