@@ -9,5 +9,8 @@ wheels/
 # Virtual environments
 RAG
 .env
+# IDE files
 DataIngestParsing/data
 Vector_Store/.Vector_Store
+Vector_Store/faiss_index
+.github
